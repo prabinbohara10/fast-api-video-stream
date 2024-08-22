@@ -8,7 +8,7 @@ from fastapi import Header
 app = FastAPI()
 #templates = Jinja2Templates(directory="templates")
 CHUNK_SIZE = 1024*1024
-video_path = Path("media/shell_echo.mkv")
+video_path = Path("light_media/vr_headset.mp4")
 
 
 @app.get("/")
